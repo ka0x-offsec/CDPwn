@@ -21,10 +21,10 @@ This Python script is designed to capture screenshots of files via the Chrome De
 
 ## Usage Examples 🚀
 
-To capture a screenshot from a local CDP server running at IP address `127.0.0.1` on port `8000`, and navigate to `index.html`, use the following command:
+To capture a screenshot from a local CDP server running at IP address `127.0.0.1` on port `46717`, and navigate to `/root/.ssh/id_rsa`, use the following command:
 
 ```python
-python cdpwn.py -i 127.0.0.1 -p 8000 -f index.html
+python cdpwn.py -i 127.0.0.1 -p 46717 -f /root/.ssh/id_rsa
 ```
 
 This command will generate a screenshot file named 'screenshot.png' in the same directory as the script.
