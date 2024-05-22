@@ -8,7 +8,7 @@
 - `asyncio`: Standard library for handling asynchronous I/O operations.
 - `base64`: Standard library for encoding and decoding binary data.
 - `pycdp`: Third-party library for interfacing with the Chrome DevTools Protocol. Available at https://github.com/HMaker/python-cdp. Note: You may need to modify `target.py` within this library, for instance, changing `can_access_opener=bool(json['canAccessOpener']),` to `can_access_opener=bool(json['canAccessOpener'],False),`.
-- `pwn`: Third-party library for simplifying the creation and manipulation of network connections.
+- `pwn`: Third-party library for improve the screen ouput.
 
 ## Command-Line Arguments 💻
 
