@@ -4,7 +4,7 @@
 
 ## Demo ✏️
 
-![demo](https://youtu.be/K0ClfDBeTyo)
+[![demo](https://img.youtube.com/vi/K0ClfDBeTyo/0.jpg)](https://youtu.be/K0ClfDBeTyo)
 
 ## Dependencies 📦
 
