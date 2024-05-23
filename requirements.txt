@@ -1,5 +1,4 @@
 argparse==1.4.0
 asyncio==3.4.3
-base64==0.1.0
 pycdp==0.0.1
 pwn==1.0.1
