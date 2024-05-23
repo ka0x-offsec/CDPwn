@@ -55,7 +55,7 @@ async def main(screenshot_name='screenshot.png'):
     log.success('Enabled page')
 
     log.info(f'Navigating to file {args.file}')
-    await target_session.execute(cdp.page.navigate(f'file:///{args.file}'))
+    await target_session.execute(cdp.page.navigate(f'file://{args.file}'))
     log.success(f'Navigated to file {args.file}')
 
     log.info('Capturing screenshot')
