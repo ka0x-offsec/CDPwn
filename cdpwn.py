@@ -34,6 +34,7 @@ parser.add_argument('-i', '--ip', type=str, required=True, help='The IP address 
 parser.add_argument('-p', '--port', type=int, required=True, help='The port to connect to.')
 parser.add_argument('-f', '--file', type=str, required=True, help='The file to navigate to.')
 parser.add_argument('-s', '--screenshot', type=str, default='screenshot.png', help='The name of the screenshot file.')
+parser.add_argument('-d', '--delay', type=int, default=2, help='The delay in seconds before capturing the screenshot.')
 args = parser.parse_args()
 
 async def main(screenshot_name='screenshot.png'):
@@ -57,6 +58,9 @@ async def main(screenshot_name='screenshot.png'):
     log.info(f'Navigating to file {args.file}')
     await target_session.execute(cdp.page.navigate(f'file://{args.file}'))
     log.success(f'Navigated to file {args.file}')
+
+    log.info(f'Waiting for {args.delay} seconds before capturing screenshot')
+    await asyncio.sleep(args.delay)  # wait for specified delay
 
     log.info('Capturing screenshot')
     screenshot = await target_session.execute(cdp.page.capture_screenshot())
