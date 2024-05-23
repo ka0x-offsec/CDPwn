@@ -2,6 +2,10 @@
 
 **CDPwn** is a python script designed to capture screenshots of files via the Chrome DevTools Protocol (CDP), a technique useful for privilege escalation when the CDP service runs with root permissions 🛡️. The script leverages the `pycdp` library to interact with CDP and the `pwn` library to manage network connections. This functionality is particularly advantageous for gaining higher-level access to systems where CDP runs with elevated privileges 🔒.
 
+## Demo ✏️
+
+https://github.com/offensive-security-pwncat/CDPwn/assets/125557804/c33e8d8c-7820-4ae9-b11c-6ce022723ac3
+
 ## Dependencies 📦
 
 - `argparse`: Standard library for parsing command-line arguments.
