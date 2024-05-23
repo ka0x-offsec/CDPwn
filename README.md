@@ -4,7 +4,7 @@
 
 ## Demo ✏️
 
-[![demo](https://img.youtube.com/vi/K0ClfDBeTyo/0.jpg)](https://youtu.be/K0ClfDBeTyo)
+https://github.com/offensive-security-pwncat/CDPwn/assets/125557804/c33e8d8c-7820-4ae9-b11c-6ce022723ac3
 
 ## Dependencies 📦
 
